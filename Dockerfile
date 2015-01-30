@@ -18,7 +18,7 @@ RUN \
 	apt-get install -y g++ && \
 	apt-get install -y tcsh
 
-RUN apt-get install openjdk-7-jre
+RUN apt-get install -y openjdk-7-jre
 
 # ADD
 COPY TextPro1.5.2_Linux64bit.tar.gz /data/
